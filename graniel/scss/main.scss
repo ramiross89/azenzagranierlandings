@@ -43,9 +43,6 @@ body {
     font-family: 'HurmeReg';
     font-size: 1.2rem;
 }
-header {
-    position: relative;
-}
 h2 {
     font-size: 3rem;
     margin-bottom: 40px;
@@ -123,10 +120,10 @@ h3 {
 
 header {
     background-color: $black;
-    padding: 150px 0;
+    padding: 130px 0;
     height: 500px;
     @media (min-width: 768px) {
-        height: 650px;
+        height: 700px;
     }
     h1 {
         color: $white;
@@ -141,7 +138,7 @@ header {
 #slider1 {
     margin-top: -150px;
     @media (min-width: 768px) {
-        margin-top: -350px;
+        margin-top: -450px;
     }
     .carousel-caption {
         p {display: none;}
