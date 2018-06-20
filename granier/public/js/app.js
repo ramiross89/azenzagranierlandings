@@ -7,7 +7,7 @@ $( document ).ready(function() {
         event.preventDefault();
         var $section = $($(this).attr('href')); 
         $('html, body').animate({
-            scrollTop: $section.offset().top - 20
+            scrollTop: $section.offset().top - 30
         }, 300);
     }
     $('[data-scroll]').on('click', scrollToSection);
