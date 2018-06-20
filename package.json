@@ -1,7 +1,7 @@
 {
   "name": "landings",
   "version": "1.0.0",
-  "description": "landings for granier y azenza towers",
+  "description": "landings for granier and azenza towers",
   "main": "index.js",
   "scripts": {
     "az-build-css": "node-sass --include-path scss azenza/scss/main.scss   azenza/public/css/main.css",

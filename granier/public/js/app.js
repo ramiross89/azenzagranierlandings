@@ -2,13 +2,12 @@ $( document ).ready(function() {
     $('.carousel').carousel({
         interval: 3000
     });
-    
-    function scrollToSection(event) {
+
+    $('a.scroll').click(function(event){
         event.preventDefault();
-        var $section = $($(this).attr('href')); 
+        var $section = $($(this).attr('href'));
         $('html, body').animate({
-            scrollTop: $section.offset().top - 30
-        }, 300);
-    }
-    $('[data-scroll]').on('click', scrollToSection);
+            scrollTop: $section.offset().top - 80
+        }, 600);
+    });
 });
