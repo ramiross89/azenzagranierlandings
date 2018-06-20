@@ -45,8 +45,7 @@ h3 {
     padding: 0; } }
 
 .cover {
-  height: 550px;
-  background-size: cover; }
+  height: 550px; }
 
 .section {
   padding: 40px 0;
@@ -199,10 +198,12 @@ header {
     text-decoration: none; }
 
 #learn .wrap .col-sm-6:first-child .cover {
-  background: url("./../../images/img1.jpg") no-repeat center center; }
+  background: url("./../../images/img1.png") no-repeat center center;
+  background-size: cover; }
 
 #learn .wrap .col-sm-6:last-child .cover {
-  background: url("./../../images/img2.jpg") no-repeat center center; }
+  background: url("./../../images/img3.png") no-repeat right center;
+  background-size: cover; }
 
 @media (min-width: 992px) {
   #learn .wrap .mobile {
