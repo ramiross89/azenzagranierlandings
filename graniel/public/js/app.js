@@ -1,11 +1,6 @@
-  // Scroll to the desired section on click
-  // Make sure to add the `data-scroll` attribute to your `<a>`          tag.
-  // Example: 
-  // `<a data-scroll href="#my-section">My Section</a>` will scroll to an element with the id of 'my-section'.
-
 $( document ).ready(function() {
     $('.carousel').carousel({
-        interval: 6000
+        interval: 3000
     });
     
     function scrollToSection(event) {
