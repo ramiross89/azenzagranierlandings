@@ -1,12 +1,12 @@
 {
   "name": "landings",
   "version": "1.0.0",
-  "description": "landings for granier y azenza towers",
+  "description": "landings for graniel y azenza towers",
   "main": "index.js",
   "scripts": {
     "az-build-css": "node-sass --include-path scss azenza/scss/main.scss   azenza/public/css/main.css",
     "az-watch-css": "nodemon -e scss -x \"npm run az-build-css\"",
-    "gra-build-css": "node-sass --include-path scss granier/scss/main.scss   granier/public/css/main.css",
+    "gra-build-css": "node-sass --include-path scss graniel/scss/main.scss   graniel/public/css/main.css",
     "gra-watch-css": "nodemon -e scss -x \"npm run gra-build-css\""
   },
   "author": "Ramiro Salinas",
