@@ -5,7 +5,7 @@
 
 $( document ).ready(function() {
     $('.carousel').carousel({
-        interval: 1000
+        interval: 6000
     });
     
     function scrollToSection(event) {
@@ -16,4 +16,9 @@ $( document ).ready(function() {
         }, 700);
     }
     $('[data-scroll]').on('click', scrollToSection);
+
+    $('.navbar .nav-link').click(function () {
+        $('.navbar .nav-link').removeClass('active');
+        $(this).addClass('active');
+     });
 });

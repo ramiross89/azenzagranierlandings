@@ -6,11 +6,13 @@
     <link rel="stylesheet" href="public/vendor/bootstrap.min.css">
     <link rel="stylesheet" href="public/css/main.css">
   </head>
-  <body>
+  <body id="home">
     <nav class="navbar fixed-top navbar-expand-lg">
       <div class="container">
-        <a class="navbar-brand" href="#">Navbar</a>
+        <a data-scroll class="navbar-brand nav-link" href="#home">Navbar</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+          <span class="navbar-toggler-icon"></span>
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
@@ -92,23 +94,63 @@
       </div>
     </section>
 
-    <section class="section" id="learn">
+    <!-- <section class="section" id="learn">
       <div class="container">
         <h2>Learn more about our projects.</h2>
         <div class="wrap">
-          <div class="col-sm">
+          <div class="col-sm-6 no-padding">
             <div class="head">
-              <img src="images/Artboard.png" alt="">
+              <img class="img-fluid" src="images/img2.jpg" alt="">
             </div>
             <div class="body">
                 <a href="#">Download our presentation</a>
                 <a href="#">Visit our site</a>
             </div>
           </div>
-          <div class="col-sm">
+          <div class="col-sm-6 no-padding">
             <div class="head">
-              <img src="images/Artboard2.png" alt="">
+              <img class="img-fluid" src="images/img2.jpg" alt="">
             </div>
+            <div class="body">
+                <a href="#">Download our presentation</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> -->
+
+    <section class="section" id="learn">
+      <div class="container">
+        <h2>Learn more about our projects.</h2>
+      </div>
+      <div class="wrap">
+        <div class="col-sm-6 no-padding">
+          <div class="cover"></div>
+          <!-- on mobile -->
+          <div class="body mobile">
+              <a href="#">Download our presentation</a>
+              <a href="#">Visit our site</a>
+          </div>
+        </div>
+        <div class="col-sm-6 no-padding">
+          <div class="cover"></div>
+           <!-- on mobile -->
+          <div class="body mobile">
+              <a href="#">Download our presentation</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- on desktop -->
+      <div class="container desktop">
+        <div class="wrap">
+          <div class="col-sm-6 no-padding">
+            <div class="body">
+                <a href="#">Download our presentation</a>
+                <a href="#">Visit our site</a>
+            </div>
+          </div>
+          <div class="col-sm-6 no-padding">
             <div class="body">
                 <a href="#">Download our presentation</a>
             </div>
@@ -250,10 +292,10 @@
 
         <nav>
           <a data-scroll class="nav-item" href="#about">About Us</a>
-          <a class="nav-item" href="#">Our Facts</a>
-          <a class="nav-item" href="#">Our Porpuses</a>
-          <a class="nav-item" href="#">Our Services</a>
-          <a class="nav-item" href="#">Re - Divisions</a>
+          <a data-scroll class="nav-item" href="#">Our Facts</a>
+          <a data-scroll class="nav-item" href="#">Our Porpuses</a>
+          <a data-scroll class="nav-item" href="#">Our Services</a>
+          <a data-scroll class="nav-item" href="#">Re - Divisions</a>
         </nav>
       </div>
     </footer>
